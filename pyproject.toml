@@ -5,6 +5,9 @@ description = "Provides basic data cleaning, wrangling and plotting of Covid tra
 authors = ["Group 28"]
 license = "MIT"
 readme = "README.md"
+packages = [
+  { include = "CovidTracker"},
+]
 
 
 [tool.poetry.dependencies]
