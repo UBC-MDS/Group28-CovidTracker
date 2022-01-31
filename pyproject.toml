@@ -6,7 +6,7 @@ authors = ["Group 28"]
 license = "MIT"
 readme = "README.md"
 packages = [
-  { include = "CovidTracker"},
+  { include = "covidtracker"},
 ]
 
 

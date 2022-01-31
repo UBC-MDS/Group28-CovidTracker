@@ -30,7 +30,7 @@ jobs:
     # Step 6. Run tests for package
     - name: Test with pytest
       run: 
-        poetry run python -m pytest tests/ --cov=CovidTracker --cov-report=xml
+        poetry run python -m pytest tests/ --cov=covidtracker --cov-report=xml
     # Step 7. Use Codecov to track coverage
     - uses: codecov/codecov-action@v2
       with:
@@ -75,7 +75,7 @@ jobs:
           pip install \
           --index-url https://test.pypi.org/simple/ \
           --extra-index-url https://pypi.org/simple \
-          CovidTracker
+          covidtracker
     # Step 7. Publish to PyPI
     - uses: pypa/gh-action-pypi-publish@release/v1
       with:

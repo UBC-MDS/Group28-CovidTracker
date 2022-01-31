@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"CovidTracker"
+project = u"covidtracker"
 copyright = u"2022, Group 24"
 author = u"Group 24"
 

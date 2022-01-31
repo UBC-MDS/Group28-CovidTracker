@@ -1,5 +1,5 @@
-from CovidTracker.calculate_stat_summary import calculate_stat_summary
-from CovidTracker.get_covid_data import get_covid_data
+from covidtracker.calculate_stat_summary import calculate_stat_summary
+from covidtracker.get_covid_data import get_covid_data
 import pandas as pd
 import pytest
 
