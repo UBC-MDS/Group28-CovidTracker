@@ -40,10 +40,10 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `CovidTracker` for local development.
+Ready to contribute? Here's how to set up `covid_tracker` for local development.
 
-1. Download a copy of `CovidTracker` locally.
-2. Install `CovidTracker` using `poetry`:
+1. Download a copy of `covid_tracker` locally.
+2. Install `covid_tracker` using `poetry`:
 
     ```console
     $ poetry install
@@ -69,5 +69,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `CovidTracker` project is released with a 
+Please note that the `covid_tracker` project is released with a 
 Code of Conduct. By contributing to this project you agree to abide by its terms.

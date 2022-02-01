@@ -1,13 +1,10 @@
 [tool.poetry]
-name = "covidtracker"
+name = "covid_tracker"
 version = "0.1.0"
 description = "Provides basic data cleaning, wrangling and plotting of Covid tracking data"
 authors = ["Group 28"]
 license = "MIT"
 readme = "README.md"
-packages = [
-  { include = "CovidTracker"},
-]
 
 
 [tool.poetry.dependencies]
