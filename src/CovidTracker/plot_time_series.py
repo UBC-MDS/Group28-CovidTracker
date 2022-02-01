@@ -85,6 +85,7 @@ def plot_ts(df, metric, start=None, end=None):
                         raise ValueError(f"The ending date must not be after {max(df[date_col])}.")
 
     df = df[(df[date_col] >= start) & (df[date_col] <= end)]
+    df = df.groupby([date_col]).sum().reset_index()
     
     plot = alt.Chart(df).mark_line().encode(
         x=alt.X(date_col+ ':T', title='Date', axis=alt.Axis(format='%Y-%b-%e')),
