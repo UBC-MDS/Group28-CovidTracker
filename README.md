@@ -1,3 +1,4 @@
+[![ci-cd](https://github.com/UBC-MDS/Group28-CovidTracker/workflows/ci-cd/badge.svg)](https://github.com/UBC-MDS/Group28-CovidTracker/actions)
 [![codecov](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker/branch/main/graph/badge.svg?token=tKi5DL8bCF)](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker)
 
 # CovidTracker
