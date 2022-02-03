@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker/branch/master/graph/badge.svg?token=tKi5DL8bCF)](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker)
+[![codecov](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker/branch/main/graph/badge.svg?token=tKi5DL8bCF)](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker)
 
 # CovidTracker
 
