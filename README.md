@@ -30,19 +30,26 @@ There are currently no other Python packages available that can perform the same
 
 
 ## Installation
-Please note that due to GDAL dependencies, the package can be installed on Mac OS and Linux machines, but currently does not work on Windows machines.
+Please note that due to GDAL dependencies, the package can be directly installed on Mac OS and Linux machines. But with Windows machine, because `pip install Fiona` doest not work, you need to install Finoa package first, and then install our covidtracker package.
 
+Mac OS and Linux machine:
 ```bash
+$ pip install CovidTracker
+```
+
+Windows machine:
+```bash
+$ conda install Fiona
 $ pip install CovidTracker
 ```
 
 ## Usage
 
 ```python
-from CovidTracker.get_covid_data import get_covid_data
-from CovidTracker.plot_geographical import plot_geographical
-from CovidTracker.plot_time_series import plot_ts
-from CovidTracker.calculate_stat_summary import calculate_stat_summary
+from covidtracker.get_covid_data import get_covid_data
+from covidtracker.plot_geographical import plot_geographical
+from covidtracker.plot_time_series import plot_ts
+from covidtracker.calculate_stat_summary import calculate_stat_summary
 
 covid_df = get_covid_data('active')
 plot_map = plot_geographical(covid_df,'cumulative_deaths')
