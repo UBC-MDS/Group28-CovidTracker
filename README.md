@@ -33,7 +33,7 @@ There are currently no other Python packages available that can perform the same
 Please note that due to GDAL dependencies, the package can be installed on Mac OS and Linux machines, but currently does not work on Windows machines.
 
 ```bash
-$ pip install git+https://github.com/UBC-MDS/Group28-CovidTracker
+$ pip install CovidTracker
 ```
 
 ## Usage
