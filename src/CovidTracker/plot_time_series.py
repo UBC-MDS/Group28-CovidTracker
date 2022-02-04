@@ -1,4 +1,3 @@
-from CovidTracker.get_covid_data import get_covid_data 
 import pandas as pd
 from datetime import datetime, timedelta
 import altair as alt
