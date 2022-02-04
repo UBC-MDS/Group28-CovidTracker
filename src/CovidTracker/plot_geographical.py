@@ -1,4 +1,3 @@
-from CovidTracker.get_covid_data import get_covid_data 
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import re
