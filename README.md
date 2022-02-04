@@ -30,7 +30,7 @@ There are currently no other Python packages available that can perform the same
 
 
 ## Installation
-Please note that due to GDAL dependencies, the package can be directly installed on Mac OS and Linux machines. But with Windows machine, because `pip install Fiona` doest not work, you need to install Finoa package first, and then install our covidtracker package.
+Please note that due to GDAL dependencies, the package can be directly installed on Mac OS and Linux machines. But with Windows machine, because `pip install Fiona` does not work, you need to install Fiona package first, and then install our covidtracker package.
 
 Mac OS and Linux machine:
 ```bash
