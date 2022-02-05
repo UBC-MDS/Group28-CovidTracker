@@ -56,25 +56,25 @@ from covidtracker.calculate_stat_summary import calculate_stat_summary
 covid_df = get_covid_data('active')
 head(covid_df)
 ```
-![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/get_covid_data.png)
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/blob/main/figures/get_covid_data.PNG?raw=true)
 
 ```python
 covid_df = get_covid_data()
 plot_geographical(covid_df, 'cases')
 ```
-![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/plot_geographical.png)
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/blob/main/figures/plot_geographical.PNG?raw=true)
 
 
 ```python
 plot_ts(covid_df,"cases")
 ```
-![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/plot_ts.png)
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/blob/main/figures/plot_ts.PNG?raw=true)
 
 
 ```python
 summary = calculate_stat_summary(covid_df, 'cases')
 ```
-![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/summary.png)
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/blob/main/figures/summary.PNG?raw=true)
 
 ## Documentation
 Detailed documentation for the package can be found here on Read the Docs : https://covidtracker.readthedocs.io/en/latest/ 
