@@ -54,9 +54,24 @@ from covidtracker.plot_time_series import plot_ts
 from covidtracker.calculate_stat_summary import calculate_stat_summary
 
 covid_df = get_covid_data('active')
-plot_map = plot_geographical(covid_df,'cumulative_deaths')
-plot_ts = plot_ts(covid_df, "active_cases")
-summary = calculate_stat_summary(covid_df, 'active')
+head(covid_df)
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/get_covid_data.png)
+
+
+covid_df = get_covid_data()
+plot_geographical(covid_df, 'cases')
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/plot_geographical.png)
+
+
+
+plot_ts(covid_df,"cases")
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/plot_ts.png)
+
+
+
+summary = calculate_stat_summary(covid_df, 'cases')
+![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/summary.png)
+
 ```
 ## Documentation
 Detailed documentation for the package can be found here on Read the Docs : https://covidtracker.readthedocs.io/en/latest/ 
