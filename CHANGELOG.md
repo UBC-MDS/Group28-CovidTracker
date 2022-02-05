@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-02-05)
+
+
 ## v0.1.1 (2022-02-05)
 ### Fix
 * Update CD to Automatically Bump Version ([`4daf593`](https://github.com/UBC-MDS/Group28-covidtracker/commit/4daf59388005e47367edf9fca75f072963659727))

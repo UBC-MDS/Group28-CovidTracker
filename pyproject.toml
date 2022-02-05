@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "covidtracker"
-version = "0.1.1"
+version = "0.1.2"
 description = "Provides basic data cleaning, wrangling and plotting of Covid tracking data"
 authors = ["Group 28"]
 license = "MIT"
