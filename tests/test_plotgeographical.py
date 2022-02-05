@@ -1,5 +1,5 @@
-from CovidTracker.plot_geographical import plot_geographical
-from CovidTracker.get_covid_data import get_covid_data 
+from covidtracker.plot_geographical import plot_geographical
+from covidtracker.get_covid_data import get_covid_data 
 from pytest import raises
 import pandas as pd
 import matplotlib as plt
