@@ -55,24 +55,27 @@ from covidtracker.calculate_stat_summary import calculate_stat_summary
 
 covid_df = get_covid_data('active')
 head(covid_df)
+```
 ![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/get_covid_data.png)
 
-
+```python
 covid_df = get_covid_data()
 plot_geographical(covid_df, 'cases')
+```
 ![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/plot_geographical.png)
 
 
-
+```python
 plot_ts(covid_df,"cases")
+```
 ![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/plot_ts.png)
 
 
-
+```python
 summary = calculate_stat_summary(covid_df, 'cases')
+```
 ![alt text](https://github.com/UBC-MDS/Group28-CovidTracker/tree/main/figures/summary.png)
 
-```
 ## Documentation
 Detailed documentation for the package can be found here on Read the Docs : https://covidtracker.readthedocs.io/en/latest/ 
 
