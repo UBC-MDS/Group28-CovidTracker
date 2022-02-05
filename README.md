@@ -1,12 +1,12 @@
-[![ci-cd](https://github.com/UBC-MDS/Group28-covidtracker/workflows/ci-cd/badge.svg)](https://github.com/UBC-MDS/Group28-covidtracker/actions)
-[![codecov](https://codecov.io/gh/UBC-MDS/Group28-covidtracker/branch/main/graph/badge.svg?token=tKi5DL8bCF)](https://codecov.io/gh/UBC-MDS/Group28-covidtracker)
+[![ci-cd](https://github.com/UBC-MDS/Group28-CovidTracker/workflows/ci-cd/badge.svg)](https://github.com/UBC-MDS/Group28-CovidTracker/actions)
+[![codecov](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker/branch/main/graph/badge.svg?token=tKi5DL8bCF)](https://codecov.io/gh/UBC-MDS/Group28-CovidTracker)
 
-# covidtracker
+# CovidTracker
 
 Provides basic data cleaning, wrangling and plotting of Covid tracking data in Canada.
 
 ## Functions
-The covidtracker package is designed for the easy retrieval and analysis of data pertaining to Covid trends in Canada, including information about cases, vaccinations and testing. The package serves as a wrapper for the opencovid.ca [API](Ihttps://opencovid.ca/api/), and provides additional helper functions for visualising the data, either as a time series or in the form of a map. 
+The CovidTracker package is designed for the easy retrieval and analysis of data pertaining to Covid trends in Canada, including information about cases, vaccinations and testing. The package serves as a wrapper for the opencovid.ca [API](Ihttps://opencovid.ca/api/), and provides additional helper functions for visualising the data, either as a time series or in the form of a map. 
 
 * #### `get_covid_data()`
     Retrieve cleaned and formatted data of specified type and within (optionally) provided time ranges and locations
@@ -22,7 +22,7 @@ The covidtracker package is designed for the easy retrieval and analysis of data
     
 
 ## Similar Packages    
-There are currently no other Python packages available that can perform the same set of data retrieval and analysis functionalities as covidtracker. There are several packages that have similar functionality, but are most are tailored either towards covid data retrieval or data visualization. The packages designed for covid data retrieval also do not use the same data source as covidtracker. Some examples of related Python packages useful for Covid data retrieval and data visualizations include:
+There are currently no other Python packages available that can perform the same set of data retrieval and analysis functionalities as CovidTracker. There are several packages that have similar functionality, but are most are tailored either towards covid data retrieval or data visualization. The packages designed for covid data retrieval also do not use the same data source as CovidTracker. Some examples of related Python packages useful for Covid data retrieval and data visualizations include:
 * [covid19dh](https://pypi.org/project/covid19dh/) - For Covid data retrieval
 * [covid](https://pypi.org/project/covid/)- For Covid data retrieval
 * [folium](https://pypi.org/project/folium/) - For data visualizations
@@ -34,13 +34,13 @@ Please note that due to GDAL dependencies, the package can only be directly inst
 
 Mac OS and Linux machine:
 ```bash
-$ pip install covidtracker
+$ pip install CovidTracker
 ```
 
 Windows machine:
 ```bash
 $ conda install Fiona
-$ pip install covidtracker
+$ pip install CovidTracker
 ```
 
 ## Usage
@@ -56,6 +56,8 @@ plot_map = plot_geographical(covid_df,'cumulative_deaths')
 plot_ts = plot_ts(covid_df, "active_cases")
 summary = calculate_stat_summary(covid_df, 'active')
 ```
+## Documentation
+Detailed documentation for the package can be found here on Read the Docs : https://covidtracker.readthedocs.io/en/latest/ 
 
 ## Contributing
 
@@ -68,8 +70,8 @@ We welcome and recognize all contributions. Please see contributing guidelines i
 
 ## License
 
-`covidtracker` was created by Group 28. It is licensed under the terms of the MIT license.
+`CovidTracker` was created by Group 28. It is licensed under the terms of the MIT license.
 
 ## Credits
 
-`covidtracker` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`CovidTracker` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
