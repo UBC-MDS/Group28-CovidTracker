@@ -3,12 +3,12 @@
 [![Documentation Status](https://readthedocs.org/projects/covidtracker/badge/?version=latest)](https://covidtracker.readthedocs.io/en/latest/?badge=latest)
 
 
-# CovidTracker
+# covidtracker
 
 Provides basic data cleaning, wrangling and plotting of Covid tracking data in Canada.
 
 ## Functions
-The CovidTracker package is designed for the easy retrieval and analysis of data pertaining to Covid trends in Canada, including information about cases, vaccinations and testing. The package serves as a wrapper for the opencovid.ca [API](Ihttps://opencovid.ca/api/), and provides additional helper functions for visualising the data, either as a time series or in the form of a map. 
+The covidtracker package is designed for the easy retrieval and analysis of data pertaining to Covid trends in Canada, including information about cases, vaccinations and testing. The package serves as a wrapper for the opencovid.ca [API](Ihttps://opencovid.ca/api/), and provides additional helper functions for visualising the data, either as a time series or in the form of a map. 
 
 * #### `get_covid_data()`
     Retrieve cleaned and formatted data of specified type and within (optionally) provided time ranges and locations
@@ -24,7 +24,7 @@ The CovidTracker package is designed for the easy retrieval and analysis of data
     
 
 ## Similar Packages    
-There are currently no other Python packages available that can perform the same set of data retrieval and analysis functionalities as CovidTracker. There are several packages that have similar functionality, but are most are tailored either towards covid data retrieval or data visualization. The packages designed for covid data retrieval also do not use the same data source as CovidTracker. Some examples of related Python packages useful for Covid data retrieval and data visualizations include:
+There are currently no other Python packages available that can perform the same set of data retrieval and analysis functionalities as covidtracker. There are several packages that have similar functionality, but are most are tailored either towards covid data retrieval or data visualization. The packages designed for covid data retrieval also do not use the same data source as covidtracker. Some examples of related Python packages useful for Covid data retrieval and data visualizations include:
 * [covid19dh](https://pypi.org/project/covid19dh/) - For Covid data retrieval
 * [covid](https://pypi.org/project/covid/)- For Covid data retrieval
 * [folium](https://pypi.org/project/folium/) - For data visualizations
@@ -36,13 +36,13 @@ Please note that due to GDAL dependencies, the package can only be directly inst
 
 Mac OS and Linux machine:
 ```bash
-$ pip install CovidTracker
+$ pip install covidtracker
 ```
 
 Windows machine:
 ```bash
 $ conda install Fiona
-$ pip install CovidTracker
+$ pip install covidtracker
 ```
 
 ## Usage
@@ -72,8 +72,8 @@ We welcome and recognize all contributions. Please see contributing guidelines i
 
 ## License
 
-`CovidTracker` was created by Group 28. It is licensed under the terms of the MIT license.
+`covidtracker` was created by Group 28. It is licensed under the terms of the MIT license.
 
 ## Credits
 
-`CovidTracker` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`covidtracker` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
